@@ -1,7 +1,7 @@
 # Dockerfile für Mysql Zugrife unter Perl
 # acdaic4v 13.08.2015
 # Zunächst zum Testen
-FROM acdaic4v/ubuntu-perl-base:v1
+FROM acdaic4v/ubuntu-perl-base:v2
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Binaries für Mysql
