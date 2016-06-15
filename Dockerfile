@@ -8,10 +8,10 @@ MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 RUN apt-get update && apt-get install -y mysql-client libmysqlclient-dev
 
 # Perl Module für Mysql
-RUN cpanm DBD \
+RUN cpanm DBI \
 &&  cpanm Class::HPLOO::Base \
 &&  cpanm DBD::mysql \
-&&  cpanm DBI 
+&&  cpanm DBD 
 
 # CPAN- Verzeichnis wieder aufräumen
 RUN rm -rf .cpanm
