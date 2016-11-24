@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y mysql-client libmysqlclient-dev
 # Perl Module für Mysql
 RUN cpanm DBI \
 &&  cpanm -f Class::HPLOO::Base \
-&&  cpanm DBD::mysql \
-&&  cpanm DBD 
+&&  cpanm -f DBD::mysql \
+&&  cpanm -f DBD 
 
 # CPAN- Verzeichnis wieder aufräumen
 RUN rm -rf .cpanm
