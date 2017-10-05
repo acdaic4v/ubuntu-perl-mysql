@@ -1,7 +1,7 @@
 # Dockerfile für Mysql Zugriffe unter Perl
 # acdaic4v 14.06.2016
 # Zunächst zum Testen
-FROM acdaic4v/ubuntu-perl-base:v20161124
+FROM acdaic4v/ubuntu-perl-base:v20170419
 MAINTAINER acdaic4v <acdaic4v@sloervi.de>
 
 # Binaries für Mysql
